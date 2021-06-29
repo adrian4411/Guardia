@@ -1,6 +1,10 @@
 <body>
   <app-nav-menu></app-nav-menu>
-  <div class="container">
+  <div style="position:fixed">
+    <app-nav-menu-horizontal style="position:fixed"></app-nav-menu-horizontal>
+  </div>
+  
+  <div style="padding-left:305px">
     <router-outlet></router-outlet>
   </div>
 </body>
