@@ -30,6 +30,7 @@
 
   <ItemGroup>
     <None Remove="ClientApp\src\app\nav-menu-horizontal\nav-menu-horizontal.component.ts" />
+    <None Remove="ClientApp\src\app\Servicio\TestService.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -63,5 +64,7 @@
       </ResolvedFileToPublish>
     </ItemGroup>
   </Target>
+
+  <ProjectExtensions><VisualStudio><UserProperties clientapp_4angular_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>
