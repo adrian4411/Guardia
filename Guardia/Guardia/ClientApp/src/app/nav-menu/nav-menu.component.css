@@ -16,3 +16,15 @@ html {
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
+nav {
+  text-align: center;
+  height: 70px;
+  background-color: #12529B;
+  float:initial;
+
+}
+
+label {
+  font-size: 50px;
+  color: #B3A212;
+}
